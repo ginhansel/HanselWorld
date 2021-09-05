@@ -4,108 +4,115 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html lang='en'>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>HanselWorld</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Bootstrap CSS -->
-        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
-            integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous'>
-        
-        <!-- Materialize CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-        
-        <!-- Local Stylesheet -->
-        <link rel="stylesheet" href="css/hanselworld.css">
-        
-        <script 
-            src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js' integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HanselWorld</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous'>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="css/hanselworld.css">
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous'>
         </script>
-        <script>
-            function toggleDarkmode() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
-        </script>
+    <script>
+        function toggleDarkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 
-    </head>
+</head>
 
-    <body>
-        <!--[if lt IE 7]>
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <!-- Bootstrap Bundle with Popper -->
-        
 
-        <div class="container">
-            <div id="header-text">
-                <h1>HanselWorld.com</h1>
-                <h3>Hansel Family Web Site</h3>
+    <!-- Bootstrap Bundle with Popper -->
 
-                <p>We left Hawaii at the end of 2017 and moved to Vero Beach Florida.<br>
+
+    <div class="container">
+        <div id="header-text">
+            <h1>Hansel World</h1>
+            <h3>Hansel Family Web Site</h3>
+
+            <p>We left Hawaii at the end of 2017 and moved to Vero Beach Florida.<br>
                 We left Vero Beach at the end of 2019 and moved to Mitchell, Indiana on January 1st, 2020<br>
-                This is our new home on the web to match our new home in Indiana!</p>                            
+                This is our new home on the web to match our new home in Indiana!</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin: 5rem 15rem;">
+        <!-- Picture Block -->
+        <div class="col-md-2 parent-column">
+            <!-- Parent Column -->
+            <div class="row parent-row">
+                <img id="parent" src="images/CharlieHeadShot.jpg" alt="">
+            </div>
+            <div class="row parent-row">
+                <img id="parent" src="images/Ginger.png" alt="">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <!-- Kids Column -->
+            <div id="kids-top-row" class="row">
+                <img class="kids" src="images/Samantha.jpg" alt="">
+                <img class="kids" src="images/Serena.jpeg" alt="">
+                <img class="kids" src="images/Jenny.jpg" alt="">
+            </div>
+
+            <div id="kids-bottom-row" class="row">
+                <img class="kids" src="images/MikesWyomingTrip8.jpg" alt="">
+                <img class="kids" src="images/J and Girls.jpg" alt="">
+                <img class="kids" src="images/Andy Dive.jpg" alt="">
             </div>
         </div>
 
-        <div class="row" style="margin: 5rem 15rem;">
-            <!-- Picture Block -->
-            <div class="col-md-2 parent-column">       <!-- Parent Column -->
-                <div class="row parent-row">
-                    <img id="parent" src="images/CharlieHeadShot.jpg" alt="">
-                </div>
-                <div class="row parent-row">
-                    <img id="parent" src="images/Ginger.png" alt="">
-                </div>
-            </div>
-            <div class="col-md-4">      <!-- Kids Column -->                
-                <div id="kids-top-row" class="row">
-                    <img class="kids" src="images/Samantha.jpg" alt="">
-                    <img class="kids" src="images/Serena.jpeg" alt="">
-                    <img class="kids" src="images/Jenny.jpg" alt="">
-                </div>
-
-                <div id="kids-bottom-row" class="row">
-                    <img class="kids" src="images/MikesWyomingTrip8.jpg" alt="">
-                    <img class="kids" src="images/J and Girls.jpg" alt="">
-                    <img class="kids" src="images/Andy Dive.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="col-md-6 family-img">      <!-- Family Photo Column -->
-                <img src="images/Family.jpg" alt="" style="width: 100%;">
-            </div>
+        <div class="col-md-6 family-img">
+            <!-- Family Photo Column -->
+            <img src="images/Family.jpg" alt="" style="width: 100%;">
         </div>
-                        
+    </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-bottom">
-            <button class="toggle-btn" onclick="toggleDarkmode()">Dark Mode</button>
-            <a class="navbar-brand" style="font-weight:lighter; padding-left: 2rem;">Hansel Family Website by the Hansel Family</a>
-                
-            
-            <div id="my-nav" class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="http://salt.is-slick.com">Salt Monitor <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
-                    </li>
-                    <li>
-              
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-bottom">
+        <button class="toggle-btn" onclick="toggleDarkmode()">Dark Mode</button>
+        <a class="navbar-brand" style="font-weight:lighter; padding-left: 2rem;">Hansel Family Website by the Hansel
+            Family</a>
+
+
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://salt.is-slick.com">Salt Monitor <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
 </html>
 
 
