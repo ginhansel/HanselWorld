@@ -6,20 +6,41 @@
 <html>
 
 <head>
+    <!-- Global Declarations -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Charles Hansel</title>
+    <title>Hansel World</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+
+    <!-- Bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1' crossorigin='anonymous'>
+
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="../css/hanselworld.css">
+    <link rel="stylesheet" href="charlie.css">
+
+    <!-- SCRIPT: Dark Mode Button -->
+    <script>
+        function toggleDarkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
 </head>
+
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <h1>Charlie's Page</h1>
+    <!-- Page Heading -->
+    <Section id="charlieHeading">
+        <h1>Charlie's Page</h1>
+        <img src="../images/CharlieHeadShot.jpg" alt="Charles Hansel Photo">
+    </Section>
 
     <script src="" async defer></script>
 </body>
