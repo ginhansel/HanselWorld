@@ -9,6 +9,13 @@ html {
 
 body {
      background-color: black;
+     width: 90vw;
+}
+
+h5 {
+     color: white;
+     font-size: 2.5vw;
+     margin: 1% 0 5%;
 }
 
 #pageHeader {
