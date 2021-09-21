@@ -1,41 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
 html {
-    margin: 0 2vw;
+    margin: 0 1vw;
     background-color: black;
 }
 
 body {
-    background-color: black;
+    background-color:black;
     width: 90vw;
 }
 
-h5 {
-    color: rgb(187, 41, 41);
-    font-size: 2.5vw;
-    margin: 1% 0 5%;
+
+h1 {
+    color: rgb(56, 65, 71);
+    font-family: 'Roboto', sans-serif;
+    /* margin-top: 50px; */
+    margin-right: auto;
 }
 
-#pageHeader {
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
+#aboutMe {
+    font-size: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(56, 65, 71);
     text-align: center;
 }
 
-.flex-item-left {
-    padding: 10px;
+
+ul {
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 100px;
+    color:rgb(56, 65, 71);
+    padding: 80px;
+    text-align: left;
+}
+
+
+    
+/* .flex-container {
+    flex-wrap: wrap;
+    text-align: relative; */
+/* } */
+    
+    
+
+#headertext {
+    background-color: black;
+    padding: 50px;
     flex: 50%;
 }
 
-.flex-item-right {
-    width: 30vw;
-    padding: 10px;
+#headerphoto {
+    width: 20vw;
+    padding: 50px;
 }
+
+    
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
@@ -44,4 +79,10 @@ h5 {
         flex: 100%;
     }
 }
+  
+
+    
+
+
+    
 
